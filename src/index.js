@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit",(e) => {
     e.preventDefault();
     let li = document.createElement('li')
-    li.innerText = task
+    li.innerText = task.value
     li.style.color = "black"
     ul.appendChild(li)
   })

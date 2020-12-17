@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit",(e) => {
     e.preventDefault();
     let li = document.createElement('li')
-    li.innerHTML += task
+    li.inneText += task
     ul.appendChild(li)
   })
 });

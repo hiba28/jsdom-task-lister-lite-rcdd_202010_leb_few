@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     let li = document.createElement('li')
     li.innerText += task
-    task.style.color = "black"
+    li.style.color = "black"
     ul.appendChild(li)
   })
 });
